@@ -28,7 +28,7 @@ def get_command(command):
                 command))
 
     cmd = cmd.strip("/")
-    cmd += get_val("BOT_CMD_POSTFIX")
+    #cmd += get_val("BOT_CMD_POSTFIX")
 
     torlog.debug(f"Final resolver for {command} is {cmd}")
     return f"/{cmd}"
