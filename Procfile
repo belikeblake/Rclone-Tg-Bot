@@ -1,3 +1,2 @@
-build:
-  docker:
-    worker: Dockerfile
+web: python -m http.server $PORT
+worker: bash start.sh
